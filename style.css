@@ -92,9 +92,16 @@ main {
 
 input {
   max-width: 20.0rem;
+  padding: 0.5rem;
 }
 
 #lesson2Av1Input {
+  margin-bottom: 0.8rem;
+}
+
+#lesson3EixoX1,
+#lesson3EixoY1,
+#lesson3EixoX2 {
   margin-bottom: 0.8rem;
 }
 
