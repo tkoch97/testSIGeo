@@ -64,12 +64,30 @@ a:hover {
   }
 }
 
+#pageTitle {
+  @media(min-width: 1024px) {
+    font-size: 2.5rem;
+  }
+}
+
+
 main {
   padding: 12.0rem 2.0rem;
   display: flex;
   flex-direction: column;
   gap: 3.0rem;
   justify-content: flex-start;
+
+  @media(min-width: 1024px) {
+    padding: 12.0rem 12.0rem;
+  }
+
+}
+
+.lessonTitle {
+  @media(min-width: 1024px) {
+    font-size: 2.5rem;
+  }
 }
 
 .lessonDescription {
@@ -77,6 +95,10 @@ main {
   margin-bottom: 1.5rem;
   font-weight: 400;
   font-size: 1.2rem;
+
+  @media(min-width: 1024px) {
+    font-size: 1.8rem;
+  }
 }
 
 .lessonResolution {
@@ -88,11 +110,18 @@ main {
   font-weight: 700;
   font-size: 1.2rem;
   margin-bottom: 0.3rem;
+
+  @media(min-width: 1024px) {
+    font-size: 1.5rem;
+  }
 }
 
 input {
   max-width: 20.0rem;
   padding: 0.5rem;
+  border: 0.1rem solid #d2d2d2;
+  border-radius: 0.5rem;
+
 }
 
 #lesson2Av1Input {
@@ -109,7 +138,8 @@ button {
   width: fit-content;
   padding: .5rem;
   margin-top: 1.5rem;
-
+  border: 0.1rem solid #d2d2d2;
+  border-radius: 0.5rem;
 }
 
 .lessonResult {
