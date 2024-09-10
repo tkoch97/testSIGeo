@@ -6,5 +6,5 @@ if(number < 0) {
      throw new Error(`Não definimos fatoriais 
       para números negativos, por favor, insira um número natural.`)
      }
-return number === 0 ? 1 : number * CalcFactorial(number-1)
+return number === 0 ? 1 : number * calcFactorial(number-1)
 }
