@@ -1,7 +1,7 @@
 export const calcMedia = (av1, av2) => {
   const media = (av1 + av2) / 2;
 
-    if(typeof av1 !== 'number' || typeof av2 !== 'number' || isNaN(av1) || isNaN(av2)) {
+    if(isNaN(av1) || isNaN(av2)) {
         throw new Error(`Por favor, insira um número válido para o cálculo.`);
     }
     if(av1 < 0 || av2 < 0) {

@@ -134,6 +134,16 @@ input {
   margin-bottom: 0.8rem;
 }
 
+#lesson4Result {
+  max-width: 40.0rem;
+  word-wrap: break-word;
+  line-height: 2.0rem;
+
+  @media(min-width: 768px) {
+    max-width: 80.0rem;
+  }
+}
+
 button {
   width: fit-content;
   padding: .5rem;

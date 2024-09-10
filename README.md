@@ -1,8 +1,8 @@
 # Teste de Lógica Estágio SIGeo - como realizei:
 
-*Exercício 1:* Para realizar o primeiro exercício eu pesquisei como funciona a lógica de cálculo de números fatoriais, que é pegundo um número específico e multiplica-lo pelos seus antecessores positivos, até chegar em 1. Também vi que por padrão, o fatorial de 0 é 1.
-Entao desenvolvi uma função recursiva que verifica se o número de entrada é negativo, se for, o cálculo não é feito e retorno um erro.
-depois, com uma função ternárria eu verifico se o número é igual a zero, se for automaticamnte retorno o 1. Se for diferente de 0, multiplico o próprio número pelo antecessor dele chamando a função novamente com (number - 1), até que pare no 0 e retorne o valor das multiplicações.
+*Exercício 1:* Para realizar o primeiro exercício eu pesquisei como funciona a lógica de cálculo de números fatoriais, que é pegando um número específico e multiplicand-o pelos seus antecessores positivos, até chegar em 1. Também vi que por padrão, o fatorial de 0 é 1.
+Entao desenvolvi uma função recursiva que verifica se o número de entrada é negativo, se for, o cálculo não é feito e o retorno é um erro.
+depois, com uma função ternária eu verifico se o número é igual a zero, se for automaticamnte retorno o 1. Se for diferente de 0, multiplico o próprio número pelo antecessor dele chamando a função novamente com (number - 1), até que pare no 0 e retorne o valor das multiplicações.
 
 *Exercício 2:* Para realizar o segundo execício, criei uma função que recebe dois valores (av1 e av2), logo em seguida calculo a média e armazeno numa variável.
 Fiz umas verificações para que a função não receba valores que não são números, valores vazios ou negativos.

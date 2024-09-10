@@ -1,5 +1,5 @@
 export const calcFactorial = number => {
-  if(typeof number !== 'number' || isNaN(number)) {
+  if(isNaN(number)) {
      throw new Error(`Por favor, insira um número válido para o cálculo.`);
      }
 if(number < 0) {

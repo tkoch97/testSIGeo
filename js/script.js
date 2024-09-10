@@ -63,7 +63,6 @@ lesson4Button.onclick = function(event) {
   let target = parseInt(lesson4Input.value);
 
   try {
-    console.log("valor de target =>", target)
     let result = calcFibonacci(target);
     lesson4Result.innerText = result;
   } catch(error) {
