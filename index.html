@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./js/script.js" defer type="module"></script>
+
+  <title>Teste Estágio SIGeo</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerBar">
+      <h1 id="pageTitle">Resolução teste estágio SIGeo</h1>
+
+      <div class="headerMenu">
+        <ul id="menuNav">
+          <li><a id="link-lesson1" href="#lesson1">Exercício 1</a></li>
+          <li><a id="link-lesson2" href="#lesson2">Exercício 2</a></li>
+          <li><a id="link-lesson3" href="#lesson3">Exercício 3</a></li>
+          <li><a id="link-lesson4" href="#lesson4">Exercício 4</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section id="lesson1">
+      <h2 class="lessonTitle">Exercício 1 - Calcular fatorial</h2>
+      <p class="lessonDescription">Insira um número natural inteiro (igual ou maior que 0) no campo e clique em calcular
+        para
+        exibir seu valor fatorial.
+      </p>
+      <div class="lessonResolution">
+        <label for="lesson1NumberInput">Fatorial a ser calculado:</label>
+        <input type="number" id="lesson1NumberInput" class="lessonInputNumber" placeholder="Inserir valor">
+        <button id="lesson1Button">Calcular</button>
+        <p id="lesson1Result" class="lessonResult"></p>
+      </div>
+    </section>
+
+    <section id="lesson2">
+      <h2 class="lessonTitle">Exercício 2 - Calcular média</h2>
+      <p class="lessonDescription">Insira um número de 0 a 10 em cada campo e depois clique em calcular média para
+        exibir o resultado.
+      </p>
+      <div class="lessonResolution">
+        <label for="lesson2Av1">Nota da Av1:</label>
+        <input type="number" id="lesson2Av1Input" class="lessonInputNumber" placeholder="Valor da primeira nota">
+        <label for="lesson2Av2">Nota da Av2:</label>
+        <input type="number" id="lesson2Av2Input" class="lessonInputNumber" placeholder="Valor da segunda nota">
+        <button id="lesson2Button">Calcular média</button>
+        <p id="lesson2Result" class="lessonResult"></p>
+      </div>
+    </section>
+
+    <section id="lesson3">
+      <h2 class="lessonTitle">Exercício 3 - Calcular distância euclidiana</h2>
+      <p class="lessonDescription">Insira os valores de das distancias de X e Y nos campos correspondentes</p>
+      <div class="lessonResolution">
+
+        <label for="lesson3EixoX1">Eixo X ponto 1:</label>
+        <input type="number" id="lesson3EixoX1" class="lessonInputNumber" placeholder="Valor da primeira nota">
+        <label for="lesson3EixoY1">Eixo Y ponto 1:</label>
+        <input type="number" id="lesson3EixoY1" class="lessonInputNumber" placeholder="Valor da primeira nota">
+
+        <label for="lesson3EixoX2">Eixo X ponto 2:</label>
+        <input type="number" id="lesson3EixoX2" class="lessonInputNumber" placeholder="Valor da segunda nota">
+        <label for="lesson3EixoY2">Eixo Y ponto 2:</label>
+        <input type="number" id="lesson3EixoY2" class="lessonInputNumber" placeholder="Valor da segunda nota">
+
+        <button id="lesson3Button">Calcular</button>
+        <p id="lesson3Result" class="lessonResult"></p>
+      </div>
+    </section>
+
+    <section id="lesson4">
+      <h2 class="lessonTitle">Exercício 4 - Calcular sequência de Fibonacci</h2>
+      <p class="lessonDescription">Insira um número igual ou maior que 1 no campo e clique em calcular para exibir a
+        sequência de Fibonacci até o número inserido.
+      </p>
+      <div class="lessonResolution">
+        <label for="lesson4NumberInput">Casas de Fibonacci a serem calculadas:</label>
+        <input type="number" id="lesson4NumberInput" class="lessonInputNumber" placeholder="Inserir valor">
+        <button id="lesson4Button">Calcular</button>
+        <p id="lesson4Result" class="lessonResult"></p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
